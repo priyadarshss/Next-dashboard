@@ -4,7 +4,7 @@ import { FaShoppingBag } from 'react-icons/fa'
 
 const RecentOrders = () => {
   return (
-    <div className='w-full col-span-1 relative lg:h-[70vh] h-[50vh] m-auto p-4 border rounded-lg bg-gray-900 overflow-scroll'>
+    <div className='w-full col-span-1 relative lg:h-[70vh] h-[50vh] m-auto p-4 border rounded-lg bg-gray-900 overflow-y-scroll overflow-x-hidden '>
       <h1>RecentOrders</h1>
       <ul>
         {data.map((item, i) => (
