@@ -25,3 +25,22 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+    @apply w-2 rounded-full;
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-gray-200;
+    @apply rounded-full;
+    @apply my-[1px]
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-gray-400 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-400;
+}
