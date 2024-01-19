@@ -3,6 +3,7 @@ import { RxDashboard, RxPerson } from 'react-icons/rx'
 import { HiOutlineShoppingBag } from 'react-icons/hi'
 import { FiSettings } from 'react-icons/fi'
 import { GoHome } from 'react-icons/go'
+import { useRouter } from 'next/router'
 
 const Sidebar = ({ children }) => {
   const router = useRouter()
