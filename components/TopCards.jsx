@@ -23,7 +23,7 @@ const TopCards = () => {
       </div>
       <div className='bg-gray-900 flex justify-between w-full border border-gray-700 p-4 rounded-lg'>
         <div className='flex flex-col w-full pb-4'>
-          <p className='text-2xl font-bold'>3,946</p>
+          <p className='text-2xl font-bold'>123,946</p>
           <p className='text-gray-400'>Customers</p>
         </div>
         <p className='bg-green-200 flex justify-center items-center p-2 rounded-lg'>
